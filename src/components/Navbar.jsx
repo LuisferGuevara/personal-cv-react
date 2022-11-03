@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = ({changeRoute}) => {
+const Navbar = ({setCurrentRoute}) => {
 
   return (
     <div className="navigation">
@@ -9,13 +9,13 @@ const Navbar = ({changeRoute}) => {
       </div>
       <ul>
         <li>
-          <a href="/" onClick={(e) => changeRoute(e,"about")}>About</a>
+          <p onClick={() => setCurrentRoute("about")}>About</p>
         </li>
         <li>
-          <a href="/" onClick={(e) => changeRoute(e,"works")}>Work</a>
+          <p onClick={() => setCurrentRoute("works")}>Work</p>
         </li>
         <li>
-          <a href="/" onClick={(e) => changeRoute(e,"contact")}>Contact</a>
+          <p onClick={() => setCurrentRoute("contact")}>Contact</p>
         </li>
       </ul>
     </div>

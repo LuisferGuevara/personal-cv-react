@@ -14,18 +14,18 @@ import { useState } from "react";
 
 const App = () => {
   console.log(CV);
-  const { hero, education, experience, languages, habilities, volunteer, works  } = CV;
+  const { hero, education, experience, languages, habilities, works  } = CV;
+  
   const [currentRoute, setCurrentRoute] = useState("");
-
-  const changeRoute = (event, route) =>{
-    event.preventDefault();
-    setCurrentRoute(route);
-  }
+  // const changeRoute = (event, route) =>{
+  //   event.preventDefault();
+  //   setCurrentRoute(route);
+  
 
   return (
     <div className="app">
       <nav>
-        <Navbar changeRoute = {changeRoute}/>
+        <Navbar setCurrentRoute = {setCurrentRoute}/>
       </nav>
       <aside>
         <Hero info={hero} />
@@ -34,9 +34,9 @@ const App = () => {
         {currentRoute === "about" && (
           <div className="info">
             <About metadata={hero.aboutMe} />
+            <More habilities={habilities} languages={languages}/>
             <Education education={education} />
             <Experience experience={experience} />
-            <More habilities={habilities} languages={languages} volunteer={volunteer} />
           </div>
         )}
 
