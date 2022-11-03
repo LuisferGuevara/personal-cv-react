@@ -13,7 +13,7 @@ export const CV = {
           info: "I´m 25. I'm married to the most beautiful woman on Earth and I have a one year old son. Family time is quality time",
         },
         {
-          info: "Recently become a Full Stack Developer. Currently you will find that I´m encreasing my ninja skills",
+          info: "Recently become a Junior Full Stack Developer.You will find that actually I´m encreasing my ninja deploy skills",
         },
         {
           info: " Professional + Creative + Curious + Passionate",
@@ -28,12 +28,17 @@ export const CV = {
     },
     education: [
       {
+        name: "Full-time FullStack ",
+        date: "2015",
+        where: "Real Instituto de Jovellanos",
+      },
+      {
         name: "Bachillerato de Humanidades y Letras",
         date: "2015",
         where: "Real Instituto de Jovellanos",
       },
       {
-        name: "Educació Secundaria Obligatoria",
+        name: "Educación Secundaria Obligatoria",
         date: "2013",
         where: "Real Instituto de Jovellanos",
       },
@@ -43,19 +48,19 @@ export const CV = {
       {
         name: "Package Carrier",
         date: "2020-2021",
-        where: "SEUR/Self-employed,",
+        where: "SEUR/Self-employed",
         description:
           "Transportation and parcel delivery",
       },
       {
-        name: "Logistics Assistant;",
+        name: "Logistics Assistant",
         date: "2018-2020",
         where: "Reconsastur S.L",
         description:
           "Reception of goods, warehouse organization and distribution of materials.Direct dealing with suppliers.Control of delivery notes and invoices.",
       },
       {
-        name: "Waiter;",
+        name: "Waiter",
         date: "2017",
         where: "La Cuchara de Palo",
         description:
@@ -64,36 +69,50 @@ export const CV = {
     ],
     languages: [
       {language: "English",
-      wrlevel: "Native",
-      splevel: "Native",
-      },
-      {language: "Portuguese",
-      wrlevel: "Native",
-      splevel: "Native",
+        level: "Professional working proficiency",
       },
       {language: "Spanish",
-      wrlevel: "Native",
-      splevel: "Native",
+      level: "Native or bilingual proficiency",
+      },
+      {language: "Portuguese",
+        level: "Native or bilingual proficiency",
+      },
+      {language: "French",
+        level: "Elementary proficiency",
       },
 
     ],
     habilities: [
-      "Web Developre",
-      "Code Programming",
+      "Web Developing",
+      "Science and Technology",
+      "Arts and Culture",
       "CSS",
-      "Weaponery",
-      "Engineer",
-      "Money",
-      "Dating",
-      "Saving the world",
+      "HTML",
+      "Javascript",
+      "React",
+      "Angular",
+      "Node",
+      "MongoDb",
     ],
     volunteer: [
       {
         name: "Service Team",
         where: "WAO Gijón",
         description:
-          "WAO Gijón os a christian Church. Its mission is to help people; young people and those in need of love, hope and healness. I usually serve and help this community on making coffee, sharing items and making social events.",
+          "WAO Gijón is a christian Church. Its mission is to help people; young people and those in need of love, hope and healness. I usually serve and help this community on making coffee, sharing items and making social events.",
       },
      
+    ],
+    works: [
+      {
+        name: "PokeApi",
+        description: "A funny project made up with Javascript and Css",
+        url: "https://prismatic-empanada-50b3de.netlify.app/",
+      },
+      {
+        name: "The Renaisance Gallery",
+        description: "Self-made data base with Node, Mongo and Express. Funny functions with Js and Css",
+        url: "https://prismatic-empanada-50b3de.netlify.app/",
+      },
     ],
   };

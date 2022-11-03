@@ -1,6 +1,7 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({changeRoute}) => {
+
   return (
     <div className="navigation">
       <div className="nameLink">
@@ -8,13 +9,13 @@ const Navbar = () => {
       </div>
       <ul>
         <li>
-          <a href="/">About</a>
+          <a href="/" onClick={(e) => changeRoute(e,"about")}>About</a>
         </li>
         <li>
-          <a href="/">Work</a>
+          <a href="/" onClick={(e) => changeRoute(e,"works")}>Work</a>
         </li>
         <li>
-          <a href="/">Contact</a>
+          <a href="/" onClick={(e) => changeRoute(e,"contact")}>Contact</a>
         </li>
       </ul>
     </div>

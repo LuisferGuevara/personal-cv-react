@@ -11,6 +11,10 @@
     "footer footer";
   grid-template-columns: 400px 1fr;
   grid-template-rows: 80px 1fr 40px;
+  @media only screen and (max-width: 700px) {
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 1fr 40px;
+  }
 
   nav {
     grid-area: nav;
@@ -45,7 +49,7 @@
         width: 30%;
         justify-content: space-between;
         align-items: center;
-        padding-right: 15px;
+        padding-right: 5%;
         a {
           letter-spacing: 0.5px;
         }
@@ -53,17 +57,15 @@
     }
   }
   aside {
-
     grid-area: sidebar;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-size: 0.9em;
-    img{
+    img {
       transform: translateX(15%);
     }
-    .contact--data{
-
+    .contact--data {
       padding-left: 2em;
     }
     p {
@@ -76,10 +78,15 @@
   }
   main {
     grid-area: main;
-    padding-top: 11%;
+    margin-top: 5%;
     overflow-y: scroll;
+    padding: 15px 0;
     h2 {
+      font-size: 1.2em;
       padding-left: 5%;
+      @media only screen and (max-width: 700px) {
+        font-size: 1em;
+      }
     }
     .main--box {
       width: 70%;
@@ -89,12 +96,68 @@
         letter-spacing: 1px;
         line-height: 1.5;
         margin: 3rem 0px;
-        transition: all 0.5s ease 0s;
+      }
+    }
+    .experience--box {
+      width: 70%;
+      margin: 0 auto;
+      h4 {
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        margin: 3rem 0px 1rem 0;
+      }
+      p {
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 1.5;
+      }
+    }
+    .skills--box{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 100px;
+      width: 70%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      padding-bottom:40px ;
+      div{
+        padding: 10px;
+      }
+    }
+    .works--box{
+      width: 70%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      h3 {
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        margin: 2rem 0px 1rem 0;
+      }
+      p {
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 1.5;
+      }
+      a{
+        text-align: center;
       }
     }
   }
   footer {
     grid-area: footer;
-    background-color: green;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-style: oblique;
+    p {
+      text-align: center;
+      height: 10px;
+      width: 110%;
+      border-bottom: 8px solid var(--mainColor);
+    }
   }
 }
