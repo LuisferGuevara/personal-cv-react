@@ -9,8 +9,8 @@ const Works = ({info}) => {
         return (
           <div key={JSON.stringify(element)} className="works--box">
             <h3>{element.name}.</h3>
-            <p>{element.description}.</p>
-            <a href={element.url}>{element.url}</a>
+            <p>{element.description}</p>
+            <a href={element.url} target="_blanck">{element.url}</a>
           </div>
         );
       })}

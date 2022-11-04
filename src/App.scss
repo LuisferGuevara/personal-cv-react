@@ -1,163 +1,46 @@
+@import url("./styles/Navbar.scss");
+@import url("./styles/About.scss");
+@import url("./styles/More.scss");
+@import url("./styles/Footer.scss");
+@import url("./styles/Hello.scss");
+@import url("./styles/Contact.scss");
 :root {
   --mainColor: #5d8ba7;
 }
 
 .app {
   display: grid;
-  height: 100%;
+  height: 100vh;
   grid-template-areas:
     "nav nav"
     "sidebar main"
     "footer footer";
   grid-template-columns: 400px 1fr;
   grid-template-rows: 80px 1fr 40px;
-  @media only screen and (max-width: 700px) {
+
+  @media only screen and (min-width: 500px) and (max-width: 700px) {
     grid-template-columns: 200px 1fr;
-    grid-template-rows: 80px 1fr 40px;
+    grid-template-rows: 80px 85% 40px;
+  }
+  @media only screen and (max-width: 500px) {
+    grid-template-columns: 0 1fr;
+    grid-template-rows: 100px 85% 40px;
   }
 
   nav {
     grid-area: nav;
     display: flex;
-    a,p {
-      background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
-      background-position: 0 100%;
-      background-repeat: repeat-x;
-      background-size: 4px 4px;
-      color: #000;
-      text-decoration: none;
-      transition: background-size 0.2s;
-      font-size: 1.2em;
-    }
-
-    a:hover, p:hover {
-      background-size: 4px 50px;
-    }
-    .navigation {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      .nameLink {
-        text-align: center;
-        align-self: center;
-        font-size: 25px;
-        padding-left: 20px;
-        font-weight: 500;
-      }
-      ul {
-        display: flex;
-        width: 30%;
-        justify-content: space-between;
-        align-items: center;
-        padding-right: 5%;
-        p {
-          letter-spacing: 0.5px;
-        }
-      }
-    }
   }
   aside {
     grid-area: sidebar;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 0.9em;
-    img {
-      transform: translateX(15%);
-    }
-    .contact--data {
-      padding-left: 2em;
-    }
-    p {
-      padding: 10px 0;
-      padding-bottom: 5px;
-      &:first-of-type {
-        padding-top: 30px;
-      }
-    }
-  }
+    @media only screen and (max-width: 500px) {
+      display: none;
+  }}
   main {
     grid-area: main;
-    margin-top: 5%;
-    overflow-y: scroll;
-    padding: 15px 0;
-    h2 {
-      font-size: 1.2em;
-      padding-left: 5%;
-      @media only screen and (max-width: 700px) {
-        font-size: 1em;
-      }
-    }
-    .main--box {
-      width: 70%;
-      margin: 0 auto;
-      p {
-        text-align: center;
-        letter-spacing: 1px;
-        line-height: 1.5;
-        margin: 3rem 0px;
-      }
-    }
-    .experience--box {
-      width: 70%;
-      margin: 0 auto;
-      h4 {
-        text-align: center;
-        letter-spacing: 1px;
-        line-height: 1.5;
-        margin: 3rem 0px 1rem 0;
-      }
-      p {
-        text-align: center;
-        letter-spacing: 1px;
-        line-height: 1.5;
-      }
-    }
-    .skills--box{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      height: 100px;
-      width: 70%;
-      margin: 0 auto;
-      flex-wrap: wrap;
-      padding-bottom:40px ;
-      div{
-        padding: 10px;
-      }
-    }
-    .works--box{
-      width: 70%;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      h3 {
-        text-align: center;
-        letter-spacing: 1px;
-        line-height: 1.5;
-        margin: 2rem 0px 1rem 0;
-      }
-      p {
-        text-align: center;
-        letter-spacing: 1px;
-        line-height: 1.5;
-      }
-      a{
-        text-align: center;
-      }
-    }
   }
   footer {
     grid-area: footer;
     display: flex;
-    justify-content: center;
-    padding: 15px;
-    font-style: oblique;
-    p {
-      text-align: center;
-      height: 10px;
-      width: 110%;
-      border-bottom: 8px solid var(--mainColor);
-    }
-  }
-}
+  }}

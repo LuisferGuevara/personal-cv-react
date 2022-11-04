@@ -1,0 +1,11 @@
+footer {
+  justify-content: center;
+  padding: 15px;
+  font-style: oblique;
+  p {
+    text-align: center;
+    height: 10px;
+    width: 110%;
+    border-bottom: 8px solid var(--mainColor);
+  }
+}

@@ -1,0 +1,47 @@
+
+  .navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .nameLink {
+      text-align: center;
+      align-self: center;
+      font-size: 25px;
+      padding-left: 20px;
+      font-weight: 500;
+    }
+    ul {
+      display: flex;
+      width: 30%;
+      justify-content: space-between;
+      align-items: center;
+      padding-right: 5%;
+      p {
+        letter-spacing: 0.5px;
+      }
+    }
+    .link {
+      background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 4px 4px;
+      color: #000;
+      text-decoration: none;
+      transition: background-size 0.2s;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+  
+    .link:hover {
+      background-size: 4px 50px;
+    }
+    @media only screen and (max-width: 700px) {
+      flex-direction: column;
+      ul{
+        width: 70%;
+        padding-left: 18%;
+
+      }
+    }
+   
+  }

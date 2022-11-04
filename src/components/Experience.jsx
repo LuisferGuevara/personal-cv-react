@@ -1,5 +1,4 @@
 import React from "react";
-import './Experience.scss'
 
 const Experience = ({ experience }) => {
   return (
@@ -10,8 +9,8 @@ const Experience = ({ experience }) => {
         return (
           <div key={JSON.stringify(element)} className="experience--box">
             <h4><em>
-              - {element.name}; <span>{element.where}; </span>
-              <span>{element.where}</span>-
+              {element.name}; <span>{element.where}; </span>
+              <span>{element.date}</span>
             </em>
             </h4>
             <p>{element.description}</p>

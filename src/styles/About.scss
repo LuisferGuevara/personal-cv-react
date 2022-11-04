@@ -1,0 +1,85 @@
+main {
+  margin-top: 5%;
+  overflow-y: scroll;
+  padding: 15px 0;
+  h2 {
+    font-size: 1.2em;
+    padding-left: 5%;
+    @media only screen and (max-width: 700px) {
+      font-size: 1em;
+    }
+  }
+  .main--box {
+    width: 70%;
+    margin: 0 auto;
+    p {
+      text-align: center;
+      letter-spacing: 1px;
+      line-height: 1.5;
+      margin: 3rem 0px;
+    }
+  }
+  .experience--box {
+    width: 70%;
+    margin: 0 auto;
+    h4 {
+      text-align: center;
+      letter-spacing: 1px;
+      line-height: 1.5;
+      margin: 3rem 0px 1rem 0;
+    }
+    p {
+      text-align: center;
+      letter-spacing: 1px;
+      line-height: 1.5;
+    }
+  }
+  .skills--box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    div {
+      padding: 10px;
+    }
+  }
+  .works--box {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    h3 {
+      text-align: center;
+      letter-spacing: 1px;
+      line-height: 1.5;
+      margin: 2rem 0px 1rem 0;
+    }
+    p {
+      text-align: center;
+      letter-spacing: 1px;
+      line-height: 1.5;
+    }
+    a {
+      text-align: center;
+    }
+  }
+  .contact--box{
+    
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    p {
+      text-align: center;
+      letter-spacing: 1px;
+      line-height: 1.5;
+      margin: 3rem 0px;
+    }
+  }
+}

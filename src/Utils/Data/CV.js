@@ -5,15 +5,15 @@ export const CV = {
       city: "Gijón - Asturias",
       email: "luisfer.guevaraa@gmail.com",
       birthDate: "01/03/1997",
-      phone: "(+34) 111 222 333",
+      phone: "(+34) 625 851 285",
       image: "./assets/me-illustration.JPG",
       gitHub: "https://github.com/LuisferGuevara",
       aboutMe: [
         {
-          info: "I´m 25. I'm married to the most beautiful woman on Earth and I have a one year old son. Family time is quality time",
+          info: "I´m 25. I'm married to the most beautiful woman on Earth and I have a one year old son. Family time is quality time.",
         },
         {
-          info: "Recently become a Junior Full Stack Developer.You will find that actually I´m encreasing my ninja deploy skills",
+          info: "Recently become a Junior Full Stack Developer.You will find that actually I´m encreasing my ninja deploy skills.",
         },
         {
           info: " Professional + Creative + Curious + Passionate",
@@ -28,9 +28,9 @@ export const CV = {
     },
     education: [
       {
-        name: "Full-time FullStack ",
-        date: "2015",
-        where: "Real Instituto de Jovellanos",
+        name: "Full-time Full Stack Web Developer Bootcamp",
+        date: "2022",
+        where: "Upgrade Hub",
       },
       {
         name: "Bachillerato de Humanidades y Letras",
@@ -48,7 +48,7 @@ export const CV = {
       {
         name: "Package Carrier",
         date: "2020-2021",
-        where: "SEUR/Self-employed",
+        where: "SEUR / Self-employed",
         description:
           "Transportation and parcel delivery",
       },
@@ -57,14 +57,14 @@ export const CV = {
         date: "2018-2020",
         where: "Reconsastur S.L",
         description:
-          "Reception of goods, warehouse organization and distribution of materials.Direct dealing with suppliers.Control of delivery notes and invoices.",
+          "Reception of goods, warehouse organization and distribution of materials. Direct dealing with suppliers. Control of delivery notes and invoices.",
       },
       {
         name: "Waiter",
         date: "2017",
         where: "La Cuchara de Palo",
         description:
-          "Table service at lunch and dinner, reservations, bar service, terrace, cash control, stock control, replacement of refrigerators and cleaning of the local place.Bilingual service for pilgrims and foreign customers.",
+          "Table service at lunch and dinner, reservations, bar service, terrace, cash control, stock control, replacement of refrigerators and cleaning of the local place. Bilingual service for pilgrims and foreign customers.",
       },
     ],
     languages: [
@@ -84,10 +84,10 @@ export const CV = {
     ],
     habilities: [
       "Web Developing",
-      "Science and Technology",
-      "Arts and Culture",
-      "CSS",
-      "HTML",
+      "MacOS",
+      "SCSS",
+      "CSS 3",
+      "HTML 5",
       "Javascript",
       "React",
       "Angular",
@@ -105,14 +105,34 @@ export const CV = {
     ],
     works: [
       {
+        name: "Personal Git Hub",
+        description: "Here you'll find all my projects. From 0 to Ninja Dev in less than 10 months!",
+        url: "https://github.com/LuisferGuevara",
+      },
+      {
         name: "PokeApi",
-        description: "A funny project made up with Javascript and Css",
-        url: "https://prismatic-empanada-50b3de.netlify.app/",
+        description: "A funny project made up with Javascript and CSS3.",
+        url: "https://poke-api-luisfer.netlify.app/",
       },
       {
         name: "The Renaisance Gallery",
-        description: "Self-made data base with Node, Mongo and Express. Funny functions with Js and Css",
-        url: "https://prismatic-empanada-50b3de.netlify.app/",
+        description: "Self-made data base with Node.js , MongoDB and Express. Funny functions with Js. Styled only for web version. Needs to run the Backend.",
+        url: "https://the-renaissance-api.netlify.app/",
+      },
+      {
+        name: "Viajes El Corte Inglés",
+        description: "Fully responsive design web replica with HTML and CSS.",
+        url: "https://replica-eci.netlify.app/",
+      },
+      {
+        name: "Slack Mobile version",
+        description: "Mobile design replica with HTML and SASS. Min-width:430px",
+        url: "https://slack-mobile-replica.netlify.app",
+      },
+      {
+        name: "Slack Mobile version",
+        description: "Mobile design replica with HTML and CSS. Min-width:430px",
+        url: "https://slack-mobile-replica.netlify.app",
       },
     ],
   };

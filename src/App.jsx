@@ -11,50 +11,64 @@ import Contact from "./components/Contact";
 // import Prueba from './components/Prueba';
 import Foooter from "./components/Foooter";
 import { useState } from "react";
+import Hello from "./components/Hello";
 
 const App = () => {
   console.log(CV);
-  const { hero, education, experience, languages, habilities, works  } = CV;
-  
-  const [currentRoute, setCurrentRoute] = useState("");
-  // const changeRoute = (event, route) =>{
-  //   event.preventDefault();
-  //   setCurrentRoute(route);
-  
+  const { hero, education, experience, languages, habilities, works } = CV;
+
+  const [currentRoute, setCurrentRoute] = useState("about");
+  const [mainDisplay, setMainDisplay] = useState("hello");
+  const changeDisplay = (event, route) => {
+    event.preventDefault();
+    setMainDisplay("app");
+  };
 
   return (
-    <div className="app">
-      <nav>
-        <Navbar setCurrentRoute = {setCurrentRoute}/>
-      </nav>
-      <aside>
-        <Hero info={hero} />
-      </aside>
-      <main>
-        {currentRoute === "about" && (
-          <div className="info">
-            <About metadata={hero.aboutMe} />
-            <More habilities={habilities} languages={languages}/>
-            <Education education={education} />
-            <Experience experience={experience} />
-          </div>
-        )}
+    <div>
+      {mainDisplay === "hello" && (
+        <Hello changeDisplay = {changeDisplay}/>
+      )}
+      {mainDisplay === "app" && (
+        <div className="app">
+          <nav>
+            <Navbar setCurrentRoute={setCurrentRoute} />
+          </nav>
+          <aside>
+            <Hero info={hero} />
+          </aside>
+          <main>
+            {currentRoute === "about" && (
+              <div className="info">
+                <About metadata={hero.aboutMe} />
+                <More habilities={habilities} languages={languages} />
+                <Education education={education} />
+                <Experience experience={experience} />
+              </div>
+            )}
 
-        {currentRoute === "works" && (
-          <div className="works">
-            <Works info={works} />
-          </div>
-        )}
-        {currentRoute === "contact" && (
-          <div className="contact">
-            <Contact/>
-          </div>
-        )}
-      </main>
-      <footer>
-        <Foooter />
-      </footer>
-      {/* <Prueba/> */}
+            {currentRoute === "works" && (
+              <div className="works">
+                <Works info={works} />
+              </div>
+            )}
+            {currentRoute === "contact" && (
+              <div className="contact">
+                <Contact />
+              </div>
+            )}
+            {currentRoute === "hello" && (
+              <div className="hello">
+                <Hello />
+              </div>
+            )}
+          </main>
+          <footer>
+            <Foooter />
+          </footer>
+          {/* <Prueba/> */}
+        </div>
+      )}
     </div>
   );
 };

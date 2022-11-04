@@ -1,21 +1,28 @@
 import React from "react";
 
-const Navbar = ({setCurrentRoute}) => {
-
+const Navbar = ({ setCurrentRoute }) => {
   return (
     <div className="navigation">
       <div className="nameLink">
-        <a href="../index.html">Luisfer Guevara</a>
+        <a href="../index.html" className="link">
+          Luisfer Guevara
+        </a>
       </div>
       <ul>
         <li>
-          <p onClick={() => setCurrentRoute("about")}>About</p>
+          <p className="link" onClick={() => setCurrentRoute("about")}>
+            About
+          </p>
         </li>
         <li>
-          <p onClick={() => setCurrentRoute("works")}>Work</p>
+          <p className="link" onClick={() => setCurrentRoute("works")}>
+            Works
+          </p>
         </li>
         <li>
-          <p onClick={() => setCurrentRoute("contact")}>Contact</p>
+          <p className="link" onClick={() => setCurrentRoute("contact")}>
+            Contact
+          </p>
         </li>
       </ul>
     </div>
