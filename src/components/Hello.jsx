@@ -1,5 +1,4 @@
 import React from "react";
-let illu = require("../assets/logo-2.PNG");
 
 const Hello = ({ changeDisplay }) => {
   return (
@@ -15,7 +14,7 @@ const Hello = ({ changeDisplay }) => {
         </div>
       </h1>
       <div className="hello--box">
-        <img src={illu} alt="Me Illustrated" className="me--working" onClick={changeDisplay} />
+        <img src="/assets/logo-2.png" alt="Me Illustrated" className="me--working" onClick={changeDisplay} />
       </div>
     </div>
   );

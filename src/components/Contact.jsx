@@ -1,5 +1,4 @@
 import React from "react";
-let logo = require("../assets/logo.JPG");
 
 const Contact = () => {
   return (
@@ -24,7 +23,7 @@ const Contact = () => {
 
         <div className="telephone">
           <span>or: (+34) 625 851 285</span>
-          <img src={logo} alt="Me Illustrated" className="contact--img" />
+          <img src="/assets/logo.png" alt="Me Illustrated" className="contact--img" />
         </div>
       </div>
     </div>
