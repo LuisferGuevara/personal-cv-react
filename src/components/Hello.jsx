@@ -7,10 +7,10 @@ const Hello = ({ changeDisplay }) => {
       <h1>
         <div className="m--container">
           <span>always be</span>
-          <div class="message">
-            <div class="word1">close.</div>
-            <div class="word2">code.</div>
-            <div class="word3">more.</div>
+          <div className="message">
+            <div className="word1">close.</div>
+            <div className="word2">code.</div>
+            <div className="word3">more.</div>
           </div>
         </div>
       </h1>
