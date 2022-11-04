@@ -23,7 +23,7 @@ const Contact = () => {
 
         <div className="telephone">
           <span>or: (+34) 625 851 285</span>
-          <img src="/assets/logo.png" alt="Me Illustrated" className="contact--img" />
+          <img src="/assets/logo.jpg" alt="Me Illustrated" className="contact--img" />
         </div>
       </div>
     </div>
