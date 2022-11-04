@@ -6,13 +6,6 @@
   max-width: 600px;
   margin: 0 auto;
   position: relative;
-  //   .gretting {
-  //     text-align: center;
-  //     padding-top: 5%;
-  //     font-size: 2rem;
-  //     font-weight: 600;
-  //     letter-spacing: 1px;
-  //   }.
   h1 {
     color: #333;
     font-family: tahoma;
@@ -23,15 +16,24 @@
     white-space: nowrap;
     overflow: hidden;
     position: relative;
-    margin-top: 5%;
+    margin-top: 8vh;
+    margin-left: 4vh;
     @media only screen and (max-width: 600px) {
       margin-left: -7.5%;
     }
+    @media only screen and (max-width: 400px) {
+        margin-left: -7.5%;
+      }
   }
 
   h1 span {
     font-size: 40px;
     margin-left: 40px;
+    @media only screen and (max-width: 400px) {
+        margin-left: 8%;
+      }
+
+
   }
 
   .message {
@@ -45,6 +47,9 @@
     top: 0.2rem;
     left: 270px;
     animation: openclose 5s ease-in-out infinite;
+     @media only screen and (max-width: 400px) {
+        margin-left: -7.5%;
+      }
   }
 
   .word1,
@@ -119,7 +124,8 @@
 
   .display--button {
     padding-top: 5%;
-    font-size: 0.8em;
+    font-size: 0.9rem;
+    line-height: 1rem;
     text-align: justify;
     border: 0;
     letter-spacing: 1px;
@@ -129,7 +135,18 @@
     top: 24.6%;
     right: 18%;
     width: 100px;
-    cursor: pointer;
+    cursor: pointer; 
+   
+    @media only screen and (max-width: 500px) {
+        font-size: 0.7rem;
+        top: 26%;
+        right: 12.8%;
+      }
+      @media only screen and (max-width: 499px) and (min-width: 300px) {
+        font-size: 0.7rem;
+        top: 26%;
+        right: 13%;
+    }
     span {
       background-color: #7eaca7;
     }
