@@ -139,7 +139,7 @@ export const CV = {
     {
       name: "Curriculum Vitae",
       description: "My own CV made up with React and SCSS in just 2 days.",
-      url: "https://cv-luisfer.netlify.app/",
+      url: "",
     },
   ],
 };
