@@ -24,10 +24,8 @@
     font-size: 40px;
     margin-left: 40px;
     @media only screen and (max-width: 400px) {
-        margin-left: 8%;
-      }
-
-
+      margin-left: 8%;
+    }
   }
 
   .message {
@@ -126,17 +124,17 @@
     top: 24.6%;
     right: 18%;
     width: 100px;
-    cursor: pointer; 
-   
+    cursor: pointer;
+
     @media only screen and (max-width: 500px) {
-        font-size: 0.7rem;
-        top: 25%;
-        right: 16.5%;
-      }
-      @media only screen and (max-width: 499px) and (min-width: 300px) {
-        font-size: 0.7rem;
-        top: 26%;
-        right: 16%;
+      font-size: 0.7rem;
+      top: 25%;
+      right: 16.5%;
+    }
+    @media only screen and (max-width: 499px) and (min-width: 300px) {
+      font-size: 0.7rem;
+      top: 26%;
+      right: 16%;
     }
     span {
       background-color: #7eaca7;

@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Foooter = () => {
   return (
     <div>
-        <p>"I'm not the best but I try my best"</p>
+      <p>"I'm not the best but I try my best"</p>
     </div>
-  )
-}
+  );
+};
 
-export default Foooter
+export default Foooter;

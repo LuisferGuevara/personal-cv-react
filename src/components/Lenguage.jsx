@@ -7,7 +7,9 @@ const Lenguage = ({ info }) => {
       {info.map((element) => {
         return (
           <div key={JSON.stringify(element)} className="main--box">
-            <p>{element.language}: <span>{element.level}</span>.</p>
+            <p>
+              {element.language}: <span>{element.level}</span>.
+            </p>
           </div>
         );
       })}

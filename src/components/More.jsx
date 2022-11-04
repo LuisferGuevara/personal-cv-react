@@ -5,8 +5,8 @@ import Languages from "./Lenguage";
 const More = ({ languages, habilities, volunteer }) => {
   return (
     <div>
-      <Habilities skills= {habilities}/>
-      <Languages info= {languages}/>
+      <Habilities skills={habilities} />
+      <Languages info={languages} />
     </div>
   );
 };
