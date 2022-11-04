@@ -8,7 +8,6 @@ import Experience from "./components/Experience";
 import More from "./components/More";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
-// import Prueba from './components/Prueba';
 import Foooter from "./components/Foooter";
 import { useState } from "react";
 import Hello from "./components/Hello";
@@ -26,9 +25,7 @@ const App = () => {
 
   return (
     <div>
-      {mainDisplay === "hello" && (
-        <Hello changeDisplay = {changeDisplay}/>
-      )}
+      {mainDisplay === "hello" && <Hello changeDisplay={changeDisplay} />}
       {mainDisplay === "app" && (
         <div className="app">
           <nav>
@@ -66,7 +63,6 @@ const App = () => {
           <footer>
             <Foooter />
           </footer>
-          {/* <Prueba/> */}
         </div>
       )}
     </div>

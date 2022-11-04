@@ -36,11 +36,13 @@
     display: flex;
     @media only screen and (max-width: 500px) {
       display: none;
-  }}
+    }
+  }
   main {
     grid-area: main;
   }
   footer {
     grid-area: footer;
     display: flex;
-  }}
+  }
+}
