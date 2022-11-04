@@ -13,13 +13,13 @@ export const CV = {
         info: "I´m 25. I'm married to the most beautiful woman on Earth and I have a one year old son. Family time is quality time.",
       },
       {
-        info: "Recently become a Junior Full Stack Developer.You will find that actually I´m encreasing my ninja deploy skills.",
+        info: "Recently I become a Junior Full Stack Developer.You will find that actually I´m encreasing my ninja deploy skills.",
       },
       {
-        info: "Since I discovered Wev Developing I left my job, and turned 180 deg my life; to start studying; by my self, the most used technologies and deploy languages nowadays",
+        info: "I discovered Web Development on 2021 and it turned 180 degrees my life. I started to autodidactly study coding, day to day, and it was both tough and exciting. On summer 2022 I decided to start a Bootcamp so I could upgraded my knowledges and be quite more professional.",
       },
       {
-        info: "I am a happy, creative and passionate guy from Gijón, Spain. I love creativity, music and coffee. But everything is better with people around. ",
+        info: "I am a happy, creative and passionate guy from Gijón, Northen-Spain. I love creativity, music and coffee. But everything is better with people around. ",
       },
       {
         info: "As a developer, I enjoy finding new solutions for every need. It all starts with research, analysis and planification. It all ends by creating cool solutions with creative ideas. Also, I believe that 'less is more', so I am kind of a minimalistic guy!",
@@ -31,6 +31,16 @@ export const CV = {
       name: "Full-time Full Stack Web Developer Bootcamp",
       date: "2022",
       where: "Upgrade Hub",
+    },
+    {
+      name: "1 Year Degree in Modern Langueges and its Cultures ",
+      date: "2019",
+      where: "Universidad de Oviedo",
+    },
+    {
+      name: "2 year Degree in Law",
+      date: "2015-2017",
+      where: "Universidad de Oviedo",
     },
     {
       name: "Bachillerato de Humanidades y Letras",
@@ -52,10 +62,17 @@ export const CV = {
     },
     {
       name: "Logistics Assistant",
-      date: "2018-2020",
+      date: "2019-2020",
       where: "Reconsastur S.L",
       description:
         "Reception of goods, warehouse organization and distribution of materials. Direct dealing with suppliers. Control of delivery notes and invoices.",
+    },
+    {
+      name: "Gap Year",
+      date: "2018",
+      where: "Europe",
+      description:
+        "I dediced to take a time for me, to develop my inner self. I stayed at Stockholm, London and Amsterdam. I used to work in several jobs like souvenirs shop assistant, pizza worker or waiter. It was nice to share life with people from all around the world and their cultures.",
     },
     {
       name: "Waiter",

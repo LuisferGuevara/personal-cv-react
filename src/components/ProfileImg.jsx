@@ -3,7 +3,7 @@ let logo = require("../assets/logo.JPG");
 
 const ProfileImg = () => {
   return (
-    <div>
+    <div className="img--box-pro">
       <img src={logo} alt="Me Illustrated" className="profile-img" />
     </div>
   );

@@ -1,6 +1,6 @@
 @import url("./styles/Navbar.scss");
 @import url("./styles/About.scss");
-@import url("./styles/More.scss");
+@import url("./styles/Aside.scss");
 @import url("./styles/Footer.scss");
 @import url("./styles/Hello.scss");
 @import url("./styles/Contact.scss");
@@ -9,6 +9,8 @@
 }
 
 .app {
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
   height: 100vh;
   grid-template-areas:
@@ -17,10 +19,16 @@
     "footer footer";
   grid-template-columns: 400px 1fr;
   grid-template-rows: 80px 1fr 40px;
+  @media only screen and (min-width: 801px) and (max-width: 950px) {
+    grid-template-columns: 340px 1fr;
+  }
+  @media only screen and (min-width: 701px) and (max-width: 800px) {
+    grid-template-columns: 240px 1fr;
+  }
 
   @media only screen and (min-width: 500px) and (max-width: 700px) {
     grid-template-columns: 200px 1fr;
-    grid-template-rows: 80px 85% 40px;
+    grid-template-rows: 100px 85% 40px;
   }
   @media only screen and (max-width: 500px) {
     grid-template-columns: 0 1fr;

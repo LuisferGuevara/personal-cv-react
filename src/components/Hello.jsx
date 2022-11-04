@@ -1,10 +1,10 @@
 import React from "react";
-let illu = require("../assets/logo-2.png");
+let illu = require("../assets/logo-2.PNG");
 
 const Hello = ({ changeDisplay }) => {
   return (
     <div className="hello">
-      <h1 className="gretting">
+      <h1>
         <div className="m--container">
           <span>always be</span>
           <div class="message">
@@ -14,12 +14,8 @@ const Hello = ({ changeDisplay }) => {
           </div>
         </div>
       </h1>
-      <button onClick={changeDisplay} className="display--button btn-shine">
-        <span>Curriculum Vitae</span>
-      </button>
-
       <div className="hello--box">
-        <img src={illu} alt="Me Illustrated" className="me--working" />
+        <img src={illu} alt="Me Illustrated" className="me--working" onClick={changeDisplay} />
       </div>
     </div>
   );
