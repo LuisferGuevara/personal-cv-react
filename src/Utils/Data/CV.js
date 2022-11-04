@@ -16,7 +16,7 @@ export const CV = {
         info: "Recently become a Junior Full Stack Developer.You will find that actually I´m encreasing my ninja deploy skills.",
       },
       {
-        info: "Since I discovered Wev Developing I left my job, and turned 180 deg my life tostart studying by my self the most used technologies and deploy languages nowadays",
+        info: "Since I discovered Wev Developing I left my job, and turned 180 deg my life; to start studying; by my self, the most used technologies and deploy languages nowadays",
       },
       {
         info: "I am a happy, creative and passionate guy from Gijón, Spain. I love creativity, music and coffee. But everything is better with people around. ",
