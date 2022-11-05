@@ -38,7 +38,7 @@ export const CV = {
       where: "University of Oviedo",
     },
     {
-      name: "2 year Degree in Law",
+      name: "2 years Degree in Law",
       date: "2015-2017",
       where: "University if Oviedo",
     },
