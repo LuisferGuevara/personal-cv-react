@@ -6,7 +6,7 @@ const Contact = () => {
       <h2>Contact</h2>
       <div className="contact--box">
         <p>I would like to know about you, so if you want to; please send me an email to:</p>
-        <a href="mailto:luisfer.guevaraa@gmail.com" target="_blank" rel="noreferrer">
+        <a href="mailto:luisfer.guevaraa@gmail.com?subject=look at this website&body=Hi,I found your CV amazing and I want to" target="_blank" rel="noreferrer">
           luisfer.guevaraa@gmail.com
         </a>
 

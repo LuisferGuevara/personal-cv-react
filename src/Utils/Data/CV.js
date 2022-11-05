@@ -1,7 +1,6 @@
 export const CV = {
   hero: {
     name: "Luisfer Guevara",
-    adress: "Avd. Constitución 58, 10A",
     city: "Gijón - Asturias",
     email: "luisfer.guevaraa@gmail.com",
     birthDate: "01/03/1997",
@@ -10,17 +9,18 @@ export const CV = {
     gitHub: "https://github.com/LuisferGuevara",
     aboutMe: [
       {
-        info: "I´m 25. I'm married to the most beautiful woman on Earth and I have a one year old son. Family time is quality time.",
+        info: "I´m 25. I'm married to the most beautiful woman on Earth and I have a one year old son. For me family time is quality time.",
+      },
+
+      {
+        info: "I am a happy, creative and passionate guy from Gijón, Northern-Spain. I love creativity, music and coffee. But everything is better with people around. ",
+      },      {
+        info: "I am a Junior Full Stack Developer.You will find that currently  I´m improving my ninja deploy skills.",
       },
       {
-        info: "Recently I become a Junior Full Stack Developer.You will find that actually I´m encreasing my ninja deploy skills.",
+        info: "Since I discovered Web Development, on 2021, it turned 180 degrees my life. I started to autodidactly study coding, day to day, and it´s been both tough and exciting. This summer 2022 I decided to start a Bootcamp so I could upgraded my knowledges and get to be quite more professional.",
       },
-      {
-        info: "I discovered Web Development on 2021 and it turned 180 degrees my life. I started to autodidactly study coding, day to day, and it was both tough and exciting. On summer 2022 I decided to start a Bootcamp so I could upgraded my knowledges and be quite more professional.",
-      },
-      {
-        info: "I am a happy, creative and passionate guy from Gijón, Northen-Spain. I love creativity, music and coffee. But everything is better with people around. ",
-      },
+      
       {
         info: "As a developer, I enjoy finding new solutions for every need. It all starts with research, analysis and planification. It all ends by creating cool solutions with creative ideas. Also, I believe that 'less is more', so I am kind of a minimalistic guy!",
       },
@@ -35,27 +35,22 @@ export const CV = {
     {
       name: "1 Year Degree in Modern Langueges and its Cultures ",
       date: "2019",
-      where: "Universidad de Oviedo",
+      where: "University of Oviedo",
     },
     {
       name: "2 year Degree in Law",
       date: "2015-2017",
-      where: "Universidad de Oviedo",
+      where: "University if Oviedo",
     },
     {
-      name: "Bachillerato de Humanidades y Letras",
+      name: "Baccalaureate of Humanities and Letters",
       date: "2015",
-      where: "Real Instituto de Jovellanos",
-    },
-    {
-      name: "Educación Secundaria Obligatoria",
-      date: "2013",
       where: "Real Instituto de Jovellanos",
     },
   ],
   experience: [
     {
-      name: "Package Carrier",
+      name: "Package Logistics",
       date: "2020-2021",
       where: "SEUR / Self-employed",
       description: "Transportation and parcel delivery",
@@ -79,7 +74,7 @@ export const CV = {
       date: "2017",
       where: "La Cuchara de Palo",
       description:
-        "Table service at lunch and dinner, reservations, bar service, terrace, cash control, stock control, replacement of refrigerators and cleaning of the local place. Bilingual service for pilgrims and foreign customers.",
+        "Reservations, bar service, terrace, cash control, stock control. Bilingual service for pilgrims and foreign customers.",
     },
   ],
   languages: [
@@ -111,7 +106,7 @@ export const CV = {
   works: [
     {
       name: "Personal Git Hub",
-      description: "Here you'll find all my projects. From 0 to Ninja Dev in less than 3 months!",
+      description: "Here you can take a look to all my projects. From 0 to Ninja Dev in less than 10 months!",
       url: "https://github.com/LuisferGuevara",
     },
     {
@@ -123,7 +118,7 @@ export const CV = {
     {
       name: "The Renaisance Gallery",
       description:
-        "Self-made data base with Node.js , MongoDB and Express. Funny functions with Js and complete Backend CRUD. Styled only for web version. Needs to run the Backend. Made in 2 days",
+        "Self-made data base with Node.js , MongoDB and Express. Funny functions with Js and  a complete Backend CRUD. Styled only for web version. It needs to run the Backend. Made in 2 days",
       url: "https://the-renaissance-api.netlify.app/",
     },
     {
@@ -133,7 +128,7 @@ export const CV = {
     },
     {
       name: "Slack Mobile version",
-      description: "Mobile design replica with HTML and SASS. Min-width:430px",
+      description: "Mobile design replica with HTML and SASS.",
       url: "https://slack-mobile-replica.netlify.app",
     },
     {

@@ -8,7 +8,6 @@ const Hero = ({ info }) => {
       <div className="contact--data">
         <p>{info.phone}</p>
         <p>{info.email}</p>
-        <p>{info.adress}</p>
         <p>{info.city}</p>
       </div>
     </div>
