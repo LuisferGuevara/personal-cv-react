@@ -132,6 +132,26 @@ export const CV = {
       url: "https://slack-mobile-replica.netlify.app",
     },
     {
+      name: "Apple Home Page",
+      description: "A really funny to do replic web of Apple,  using Boostrap Library",
+      url: "https://apple-home-replica.netlify.app/",
+    },
+    {
+      name: "BMW",
+      description: "HTML and CSS replica of BMW web. Just the Desktop Version.",
+      url: "https://bmw-replica.netlify.app/",
+    },
+    {
+      name: "MI_TIENDA",
+      description: "First time using Grid Layout and Responsive design. HTML and CSS.",
+      url: "https://mi-tiendina.netlify.app/",
+    },
+    {
+      name: "Mailchimp Form",
+      description: "My first time ever using HTML and CSS ever. Replica of a Mailchimp.com form",
+      url: "my-first-html-form.netlify.app",
+    },
+    {
       name: "Curriculum Vitae",
       description: "My own CV made up with React and SCSS in just 2 days.",
       url: "https://cv-luisfer.netlify.app/",
