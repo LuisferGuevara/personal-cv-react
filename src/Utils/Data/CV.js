@@ -149,7 +149,7 @@ export const CV = {
     {
       name: "Mailchimp Form",
       description: "My first time ever using HTML and CSS ever. Replica of a Mailchimp.com form",
-      url: "my-first-html-form.netlify.app",
+      url: "https://my-first-html-form.netlify.app",
     },
     {
       name: "Curriculum Vitae",
