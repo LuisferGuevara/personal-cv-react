@@ -33,7 +33,7 @@ export const CV = {
       where: "Upgrade Hub",
     },
     {
-      name: "1 Year Degree in Modern Langueges and its Cultures ",
+      name: "1 Year Degree in Modern Langueges and its Literatures ",
       date: "2019",
       where: "University of Oviedo",
     },
