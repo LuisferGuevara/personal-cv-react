@@ -18,7 +18,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          www.linkedin.com/in/luisfer-guevara
+          www.linkedin.com/in/luisferguevarapro
         </a>
 
         <div className="telephone">
