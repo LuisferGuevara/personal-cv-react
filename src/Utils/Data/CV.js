@@ -133,7 +133,7 @@ export const CV = {
     },
     {
       name: "Apple Home Page",
-      description: "A really funny to do replic web of Apple,  using Boostrap Library",
+      description: "A really funny to do replic web of Apple,  using Bootstrap Library",
       url: "https://apple-home-replica.netlify.app/",
     },
     {
