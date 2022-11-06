@@ -51,7 +51,7 @@ export const CV = {
   experience: [
     {
       name: "Package Logistics",
-      date: "2020-2021",
+      date: "2020-2022",
       where: "SEUR / Self-employed",
       description: "Transportation and parcel delivery",
     },
