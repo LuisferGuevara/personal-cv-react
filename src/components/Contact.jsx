@@ -14,7 +14,7 @@ const Contact = () => {
           <strong>LinkedIn: </strong>
         </p>
         <a
-          href="https://www.linkedin.com/in/luisfer-guevara-635078252/"
+          href="https://www.linkedin.com/in/luisferguevarapro/"
           target="_blank"
           rel="noreferrer"
         >
