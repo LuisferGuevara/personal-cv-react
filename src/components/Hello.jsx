@@ -13,7 +13,7 @@ const Hello = ({ changeDisplay }) => {
           </div>
         </div>
       </h1>
-      <div className="hello--box">
+      <div className="hello--box animated flash">
         <img src="/assets/logo-2.png" alt="Me Illustrated" className="me--working" onClick={changeDisplay} />
       </div>
     </div>
