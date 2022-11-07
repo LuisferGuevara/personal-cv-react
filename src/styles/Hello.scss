@@ -14,7 +14,7 @@ justify-content: center;
     margin: 0 auto;
     transition: all 0.3s;
     @media only screen and (max-width: 600px) {
-      animation: zoom-in-zoom-out 1s ease infinite;
+      animation: zoom-in-zoom-out 3s ease infinite;
     @keyframes zoom-in-zoom-out {
       0% {
         transform: scale(1, 1);
