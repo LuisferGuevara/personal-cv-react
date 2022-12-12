@@ -14,13 +14,14 @@ export const CV = {
 
       {
         info: "I am a happy, creative and passionate guy from Gijón, Northern-Spain. I love creativity, music and coffee. But everything is better with people around. ",
-      },      {
+      },
+      {
         info: "I am a Junior Full Stack Developer.You will find that currently  I´m improving my ninja deploy skills.",
       },
       {
         info: "Since I discovered Web Development, on 2021, it turned 180 degrees my life. I started to autodidactly study coding, day to day, and it´s been both tough and exciting. This summer 2022 I decided to start a Bootcamp so I could upgraded my knowledges and get to be quite more professional.",
       },
-      
+
       {
         info: "As a developer, I enjoy finding new solutions for every need. It all starts with research, analysis and planification. It all ends by creating cool solutions with creative ideas. Also, I believe that 'less is more', so I am kind of a minimalistic guy!",
       },
@@ -106,8 +107,27 @@ export const CV = {
   works: [
     {
       name: "Personal Git Hub",
-      description: "Here you can take a look to all my projects. From 0 to Ninja Dev in less than 10 months!",
+      description:
+        "Here you can take a look to all my projects. From 0 to Ninja Dev in less than 10 months!",
       url: "https://github.com/LuisferGuevara",
+    },
+    {
+      name: "1BUY1",
+      description:
+"Final Bootcamp Project. Made in React + Puppeteer + Framer-Motion with BEM methodology. Onw-self data base, ideas, and architecture. Price Comparator to make cheapier shoppings!",
+      url: "https://1buy1.vercel.app/",
+    },
+    {
+      name: "Wiki Whales",
+      description:
+        "My most personal project ever, it is dedicated to all Autism Kids. Here I used AngularJs and MongoDb. CRUD complete and Memory Card Game. Built in a Week-end! ",
+      url: "https://wikiwhales-front-v.vercel.app/",
+    },
+    {
+      name: "Capsule Corp",
+      description:
+        "A nice Space E-Commerce project made in React, with an own-self developed DB. Users Register and Login. REACT JS + NODEJS",
+      url: "https://e-commerce-space-react-87fe.vercel.app/",
     },
     {
       name: "PokeApi",
